@@ -14,6 +14,7 @@
 		2C89AA9B2C15AE5E00C82542 /* SwiftulThinkingBootcampTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C89AA9A2C15AE5E00C82542 /* SwiftulThinkingBootcampTests.swift */; };
 		2C89AAA52C15AE5E00C82542 /* SwiftulThinkingBootcampUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C89AAA42C15AE5E00C82542 /* SwiftulThinkingBootcampUITests.swift */; };
 		2C89AAA72C15AE5E00C82542 /* SwiftulThinkingBootcampUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C89AAA62C15AE5E00C82542 /* SwiftulThinkingBootcampUITestsLaunchTests.swift */; };
+		2C89AAB42C15BE0800C82542 /* TextBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C89AAB32C15BE0800C82542 /* TextBootcamp.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		2C89AAA02C15AE5E00C82542 /* SwiftulThinkingBootcampUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftulThinkingBootcampUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C89AAA42C15AE5E00C82542 /* SwiftulThinkingBootcampUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftulThinkingBootcampUITests.swift; sourceTree = "<group>"; };
 		2C89AAA62C15AE5E00C82542 /* SwiftulThinkingBootcampUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftulThinkingBootcampUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		2C89AAB32C15BE0800C82542 /* TextBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextBootcamp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +97,7 @@
 			isa = PBXGroup;
 			children = (
 				2C89AA892C15AE5C00C82542 /* SwiftulThinkingBootcampApp.swift */,
+				2C89AAB32C15BE0800C82542 /* TextBootcamp.swift */,
 				2C89AA8B2C15AE5C00C82542 /* ContentView.swift */,
 				2C89AA8D2C15AE5E00C82542 /* Assets.xcassets */,
 				2C89AA8F2C15AE5E00C82542 /* Preview Content */,
@@ -258,6 +261,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2C89AA8C2C15AE5C00C82542 /* ContentView.swift in Sources */,
+				2C89AAB42C15BE0800C82542 /* TextBootcamp.swift in Sources */,
 				2C89AA8A2C15AE5C00C82542 /* SwiftulThinkingBootcampApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -422,6 +426,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"SwiftulThinkingBootcamp/Preview Content\"";
+				DEVELOPMENT_TEAM = CKKP39TKT7;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -450,6 +455,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"SwiftulThinkingBootcamp/Preview Content\"";
+				DEVELOPMENT_TEAM = CKKP39TKT7;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
