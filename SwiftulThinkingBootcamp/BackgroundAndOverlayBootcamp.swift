@@ -21,14 +21,28 @@ struct BackgroundAndOverlayBootcamp: View {
             .background(Circle()
                 .fill(LinearGradient(gradient: Gradient(colors: [Color.blue, Color.red]), startPoint: /*@START_MENU_TOKEN@*/.leading/*@END_MENU_TOKEN@*/, endPoint: /*@START_MENU_TOKEN@*/.trailing/*@END_MENU_TOKEN@*/)))
         
+        Spacer().frame(height:40 )
         
         Image(systemName: "heart.fill")
+            .foregroundColor(.white)
             .font(.system(size: 50))
             .background(
-                Circle()
-                    .fill(             Color(#colorLiteral(purple: 0.292)))
-            )
-        
+            Circle()
+                .fill(LinearGradient(gradient: Gradient(colors: [Color.purple, Color.pink]), startPoint: /*@START_MENU_TOKEN@*/.leading/*@END_MENU_TOKEN@*/, endPoint: /*@START_MENU_TOKEN@*/.trailing/*@END_MENU_TOKEN@*/))
+
+                .frame(width: 100,height: 100)
+                .shadow(color: .purple, radius: 10, x:0.0, y:10)
+                .overlay(
+                    Circle()
+                        .fill(Color.blue)
+                        .frame(width: 30, height: 30, alignment: .center)
+                        .overlay(
+                        Text("5")
+                            .foregroundColor(.white)
+                        )
+                    ,alignment: .bottomTrailing
+                )
+        )
     }
 }
 
