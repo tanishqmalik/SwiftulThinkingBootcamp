@@ -41,7 +41,8 @@ struct StacksBootcamp: View {
 //                .frame(width: 60, height: 60);
 //        }
         
-        VStack(alignment: .top, spacing: 0, content: {
+        
+        VStack(alignment: .center, spacing: 0, content: {
             Rectangle()
                 .fill(Color.red)
                 .frame(width: 150, height: 150)
